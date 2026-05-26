@@ -43,3 +43,9 @@ python github_c_api_requests.py
 5. View the output
 The terminal will print the top repositories
 A Plotly bar chart will open showing the top 30 C repositories by stars
+
+**Future Improvements:**
+1. Add pagination to fetch more than 100 results
+2. Support multiple languages
+3. Export results to CSV
+4. Build a dashboard
