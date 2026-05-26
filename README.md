@@ -15,17 +15,17 @@ Plotly Express
 GitHub REST API
 Environment variables
 
-Author: Craig Kindel
-Date: 5-25-2026
+**Author: Craig Kindel
+Date: 5-25-2026**
 
-I created this for my own personal Python project to fine-tune my skills.
+**I created this for my own personal Python project to fine-tune my skills.**
 
-1. Clone the repository
+**1. Clone the repository**
 bash
 git clone https://github.com/DocDMB2004/Top-30-C-Repositories-on-GitHub-API-Data-Visualization.git
 cd Top-30-C-Repositories-on-GitHub-API-Data-Visualization.git
 
-2. Install dependencies
+**2. Install dependencies**
 Make sure you have Python 3.10+ installed, then run:
 
 bash
@@ -34,13 +34,13 @@ Your requirements.txt should include:
 requests
 plotly
 
-3. Set your GitHub token
+**3. Set your GitHub token**
 setx GITHUB_TOKEN "your_token_here"
 
-4. Run the program
+**4. Run the program**
 python github_c_api_requests.py
    
-5. View the output
+**5. View the output**
 The terminal will print the top repositories
 A Plotly bar chart will open showing the top 30 C repositories by stars
 
