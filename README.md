@@ -14,3 +14,7 @@ requests
 Plotly Express
 GitHub REST API
 Environment variables
+
+Author: Craig Kindel
+Date: 5-25-2026
+I created this for my own personal Python project to fine-tune my skills.
