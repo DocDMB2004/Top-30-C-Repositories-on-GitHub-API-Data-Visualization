@@ -20,7 +20,6 @@ Date: 5-25-2026
 
 I created this for my own personal Python project to fine-tune my skills.
 
-**How to Run This Project**
 1. Clone the repository
 bash
 git clone https://github.com/DocDMB2004/Top-30-C-Repositories-on-GitHub-API-Data-Visualization.git
@@ -32,17 +31,15 @@ Make sure you have Python 3.10+ installed, then run:
 bash
 pip install -r requirements.txt
 Your requirements.txt should include:
-
-Code
 requests
 plotly
+
 3. Set your GitHub token
-This project requires a GitHub Personal Access Token to authenticate API requests.
-
-Windows (PowerShell):
-
-powershell
 setx GITHUB_TOKEN "your_token_here"
-Then close and reopen your terminal so the variable loads.
 
 4. Run the program
+python github_c_api_requests.py
+   
+5. View the output
+The terminal will print the top repositories
+A Plotly bar chart will open showing the top 30 C repositories by stars
